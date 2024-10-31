@@ -3,9 +3,7 @@
 # OSU Email: sidhuja@oregonstate.edu
 # Course: CS261 - Data Structures
 # Assignment: Assignment 2: Dynamic Array and Bag ADT
-# Description: Dynamic Array Implementation,This file implements a Dynamic Array class using a static array as its internal storage.The class provides various functionalities similar to Python lists, including resizing,appending, inserting, removing, and additional features such as slice, map, filter, reduce, and chunking the array into subarrays of non-descending order. 
-
-#Each method is designed to adhere to specific time complexities, and severalmethods implement error handling to ensure robustness. This file also containsthe find_mode function to identify the most frequently occurring element(s) in a sorted dynamic array.
+# Description: Implements a Dynamic Array with additional operations including resizing, slicing, mapping, filtering, and reducing.
 
 
 from static_array import StaticArray
